@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "184914599324",
+    "project_id": "garbagemanagementsystem-1de15",
+    "storage_bucket": "garbagemanagementsystem-1de15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184914599324:android:d384a2acbbf3c5dd877c59",
+        "android_client_info": {
+          "package_name": "com.example.garbagemanagementsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz57INtwpDd8Cfa8riy815Om2P9ilRwl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

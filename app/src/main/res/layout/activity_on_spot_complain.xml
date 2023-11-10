@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/user_login_background"
+    tools:context=".RegisterUser">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="66dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back1">
+
+            <EditText
+                android:id="@+id/complainName"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="75dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/edittextbackground"
+                android:hint="Enter your name"
+                android:paddingStart="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/complainEmail"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginEnd="23dp"
+                android:background="@drawable/edittextbackground"
+                android:hint="Enter your email"
+                android:paddingStart="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/complainName" />
+
+            <EditText
+                android:id="@+id/complainPhone"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/edittextbackground"
+                android:hint="Enter your Phone no"
+                android:paddingStart="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/complainEmail" />
+
+            <EditText
+                android:id="@+id/complainAddress"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/edittextbackground"
+                android:hint="Enter your address"
+                android:paddingStart="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/complainDetails" />
+
+            <EditText
+                android:id="@+id/complainDetails"
+                android:layout_width="350dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/edittextbackground"
+                android:hint="Enter Complain details"
+                android:paddingStart="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/complainPhone" />
+
+            <Button
+                android:id="@+id/complainRegister"
+                android:layout_width="125dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="132dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="132dp"
+                android:text="Register"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/complainAddress" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
